@@ -1,48 +1,52 @@
-body{
-    margin: 0px;
+body {
+  margin: 0px;
 }
 /* Body header rules */
-#body-header{
-    height: 65vh;
-    opacity: 0.8;
-    background-image: url(images/macbook_mouse.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    
+#body-header {
+  height: 65vh;
+  opacity: 0.8;
+  background-image: url(images/macbook_mouse.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 /* Horizontal lists rules */
 
-.horizontal-list{
-    list-style: none;
-    padding-left: 0px;
+.horizontal-list {
+  list-style: none;
+  padding-left: 0px;
 }
 
-.horizontal-list li{
-    display: inline-block;
-    margin: 0px 8px;
-    
+.horizontal-list li {
+  display: inline-block;
+  margin: 0px 8px;
 }
-.horizontal-list li a{
-    color: white;
-    text-decoration: none;
+.horizontal-list li a {
+  color: white;
+  text-decoration: none;
 }
-.horizontal-list li a:hover{
-    border-bottom: solid 2px;
-    color: rgb(155, 195, 230);
-    transition: color 0.5s, border-bottom 0.5s;
+.horizontal-list li a:hover {
+  border-bottom: solid 2px;
+  color: rgb(155, 195, 230);
+  transition: color 0.5s, border-bottom 0.5s;
 }
 
+.text-center {
+  text-align: center;
+}
+#my-name {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+section h1 {
+  text-align: center;
+  display: inline-block;
+  padding: 2px;
+}
 
-.text-center{
-    text-align: center;
-}
-#my-name{
-    text-transform: uppercase;
-    text-align: center;
-    color: white;
-}
-main h1{
-    text-align: center;
+#flex {
+  display: flex;
+  order: ;
 }
