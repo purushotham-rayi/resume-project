@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <!-- <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 
     <link rel="stylesheet" href="styles.css">
+    <!-- add font awesome kit code here -->
+    <script src="https://kit.fontawesome.com/dda3cf65aa.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
     <header id="body-header">
         <!-- menu list nav items -->
         <nav>
-            <ul class="horizontal-list text-center">
-                <li class="unordered-list-links"><a href="">Home</a></li>
+            <ul class="horizontal-list text-center nav-menu" id="nav-item-font">
+                <li><a href="">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#work-experience">Experience</a></li>
@@ -22,38 +24,88 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <!-- name -->
-        <h1 id="my-name">Purushotham RAYI</h1>
+        <!-- name and links to social media-->
+        <div id="name-social-container">
+            <div class="text-center">
+                <h1 id="my-name">Purushotham Rayi</h1>
+            </div>
+            <div>
+                <ul class="horizontal-list text-center social-icons">
+                    <!-- fa-xl is used for setting size of font awesome icons. For more info refer (Sizing Icons | Font Awesome Docs) in google -->
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in fa-xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-github fa-xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram fa-xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
         <!-- background image -->
         <!-- links to social media -->
     </header>
     
     <main>
-        <!-- my image -->
-        <!-- short description about me -->
+        
+        <!-- Image section -->
+        <section>
+            <div id="my-image">
+                <img src="images/my-image.jpg"  alt="my-image">
+            </div>
+        </section>
+
         <section id="about">
+            
+           
             <h1>About</h1>
+            <div>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type 
+                    specimen book. It has survived not only five centuries, but also the leap into 
+                    electronic typesetting, remaining essentially unchanged. It was popularised in 
+                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus PageMaker 
+                    including versions of Lorem Ipsum.
+                </p>
+            </div>
 
         </section>
         <!-- skills section -->
         <section id="skills">
-            <h1>skills</h1>
+            <h1>Skills</h1>
         </section>
         <!-- woek experience section -->
         <section id="work-experience">
-            <h1>work-experience</h1>
+            <h1>Work-experience</h1>
         </section>
         <!-- education section -->
         <section id="education">
-            <h1>education</h1>
+            <h1>Education</h1>
         </section>
         <!-- portfolio section -->
         <section id="portfolio">
-            <h1>portfolio</h1>
+            <h1>Portfolio</h1>
         </section>
         <!-- contact section -->
         <section id="contact">
-            <h1>contact</h1>
+            <h1>Contact</h1>
         </section>
     </main>
 </body>

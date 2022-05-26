@@ -11,42 +11,103 @@ body {
   background-attachment: fixed;
 }
 
-/* Horizontal lists rules */
+/* Horizontal lists rules. Will make the list horizontal, inline */
 
 .horizontal-list {
   list-style: none;
   padding-left: 0px;
+  margin: 0px;
 }
 
 .horizontal-list li {
   display: inline-block;
-  margin: 0px 8px;
+  margin: 10px 10px;
 }
+#nav-item-font {
+  font-size: large;
+}
+/* transitions for nav menu */
 .horizontal-list li a {
   color: white;
   text-decoration: none;
 }
+.nav-menu li a {
+  transition: color 0.5s, border-bottom 0.5s;
+}
 .horizontal-list li a:hover {
   border-bottom: solid 2px;
   color: rgb(155, 195, 230);
-  transition: color 0.5s, border-bottom 0.5s;
 }
+
+/* align the name of the navs to center */
 
 .text-center {
   text-align: center;
 }
+
+/* properties for the name */
 #my-name {
   text-transform: uppercase;
-  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
   color: white;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+#name-social-container {
+  margin-top: 2rem;
+  padding-top: 4rem;
 }
 section h1 {
   text-align: center;
   display: inline-block;
   padding: 2px;
 }
+.social-icons li a i {
+  padding: 10px;
+  height: 1rem;
+  width: 1rem;
+  line-height: 0px;
+  border-radius: 50%;
+}
+.social-icons li a i:hover {
+  box-shadow: 0px 0px 6px 4px grey;
+}
 
-#flex {
-  display: flex;
-  order: ;
+/* Main section */
+
+/* about rules */
+#about {
+  height: auto;
+  width: 100%;
+  /* position: relative; */
+}
+
+/* my-image rules */
+#my-image {
+  height: 250px;
+  width: 250px;
+  margin: auto;
+  position: relative;
+}
+
+#my-image img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  margin-top: -17vh;
+  border: 2px solid white;
+  box-shadow: 0px 0px 6px 4px grey;
+}
+
+section {
+  text-align: center;
+}
+section#about {
+  /* border: 1px solid red; */
+  margin-top: -17vh;
+}
+
+section#about div p {
+  font-size: x-large;
 }
